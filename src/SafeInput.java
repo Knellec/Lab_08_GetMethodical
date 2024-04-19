@@ -90,7 +90,7 @@ public class SafeInput
         return retInt;
     }
 
-    public static double getRangedDouble(Scanner pipe, String prompt, int low, int high)
+    public static double getRangedDouble(Scanner pipe, String prompt, double low, double high)
     {
         double retDouble = 0;
         String trash = "";
