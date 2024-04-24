@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43ec60d9-6fb6-4512-b7e1-f806455b76ab" name="Changes" comment="BirthDateTime update">
-      <change afterPath="$PROJECT_DIR$/src/CheckOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reggie.java" afterDir="false" />
+    <list default="true" id="43ec60d9-6fb6-4512-b7e1-f806455b76ab" name="Changes" comment="Reggie update">
+      <change afterPath="$PROJECT_DIR$/src/CtoFTableDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrettyHeader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SafeInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SafeInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +39,12 @@
   "keyToString": {
     "Application.BirthDateTime.executor": "Run",
     "Application.CheckOut.executor": "Run",
+    "Application.CtoFTableDisplay.executor": "Run",
     "Application.DevTest.executor": "Run",
     "Application.FavNumbers.executor": "Run",
     "Application.GetUserName.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.PrettyHeader.executor": "Run",
     "Application.Reggie.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -84,12 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713363730380</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Reggie update">
+      <option name="closed" value="true" />
+      <created>1713538595304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713538595304</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Safe input and Program 1" />
     <MESSAGE value="BirthDateTime update" />
-    <option name="LAST_COMMIT_MESSAGE" value="BirthDateTime update" />
+    <MESSAGE value="Reggie update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reggie update" />
   </component>
 </project>

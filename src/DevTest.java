@@ -70,6 +70,6 @@ public class DevTest
 
         phoneNumber = SafeInput.getRegExString(in, message, pattern);
 
-        System.out.println(phoneNumber + " is a valid password.");
+        System.out.println(phoneNumber + " is a valid number.");
     }
 }

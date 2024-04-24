@@ -187,4 +187,36 @@ public class SafeInput
        return retString;
    }
 
+   public static void prettyHeader(String msg)
+   {
+       // declare variables
+       int msgLength = msg.length();
+       int padding = (54 - msgLength) / 2;
+
+       for (int a = 0; a < 3; a++)
+       {
+            if (a == 0 || a == 2)
+            {
+                for (int b = 0; b < 60; b++)
+                {
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+            else if (a == 1)
+            {
+                System.out.print("***");
+                for (int c = 0; c < padding; c++)
+                {
+                    System.out.print(" ");
+                }
+                System.out.print(msg);
+                for (int c = 0; c < padding; c++)
+                {
+                    System.out.print(" ");
+                }
+                System.out.println("***");
+            }
+       }
+   }
 }
